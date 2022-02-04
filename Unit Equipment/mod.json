@@ -1,0 +1,8 @@
+name: "unit equipment"
+displayName: "Unit Equipment"
+author: "Radiance of Dove"
+description: "A unit upgradeing mod about small sub units that you Equip to bigger units"
+version: "0.1"
+minGameVersion: "135"
+dependencies: [ ]
+hidden: false
