@@ -1,0 +1,14 @@
+{
+    "type": "item",
+    "name": "Core",
+    "description": "A complex unit core you think may bring new possabilities to units you creat with it.",
+    "color": "000000",
+    "charge": 100,
+    "explosiveness": 100,
+    "flammability": 0,
+    "radioactivity": 0,
+    "hardness": 5,
+    "cost": 60000,
+    "research": "Deep Silver",
+    "alwaysUnlocked": false,
+}

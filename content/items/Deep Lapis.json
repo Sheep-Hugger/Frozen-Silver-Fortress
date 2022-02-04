@@ -1,0 +1,14 @@
+{
+    "type": "item",
+    "name": "Deep Lapis",
+    "description": "A rare stone found deep in the ground.",
+    "color": "000000",
+    "charge": 0,
+    "explosiveness": 0,
+    "flammability": 0,
+    "radioactivity": 0,
+    "hardness": 5,
+    "cost": 2.5,
+    "research": "Drill",
+    "alwaysUnlocked": false,
+}
