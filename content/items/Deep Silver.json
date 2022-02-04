@@ -1,14 +1,14 @@
 {
     "type": "item",
-    "name": "Drill",
-    "description": "A hardened drill for going deeper.",
+    "name": "Deep Silver",
+    "description": "A metal found deep in the ground costly to dig up but worth the effort.",
     "color": "000000",
     "charge": 0,
     "explosiveness": 0,
     "flammability": 0,
     "radioactivity": 0,
     "hardness": 5,
-    "cost": 6000,
-    "research": "copper",
+    "cost": 2.5,
+    "research": "Drill",
     "alwaysUnlocked": false,
 }
