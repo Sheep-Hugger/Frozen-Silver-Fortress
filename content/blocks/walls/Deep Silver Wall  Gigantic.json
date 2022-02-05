@@ -1,5 +1,6 @@
 {
     "type": "wall",
+    "category": "defense",
     "name": "Deep Silver Wall Gigantic",
     "description": "A very strong wall that also boosts deep silver buildings.",
     "type": "Wall",
@@ -8,6 +9,6 @@
     "requirements": [
         {"item": "Deep Silver", "amount": 100}
     ],
-    "category": "defense",
+
     "research": "Deep Silver Wall Large",
 }
