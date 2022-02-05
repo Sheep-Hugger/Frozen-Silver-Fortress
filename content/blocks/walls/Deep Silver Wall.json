@@ -1,0 +1,12 @@
+{
+    "type": "wall",
+    "name": "Deep Silver Wall": "?.",
+    "type": "Wall",
+    "health": 2777,
+    "size": 1,
+    "requirements": [
+        {"item": "Deep Silver", "amount": 6}
+    ],
+    "category": "defense",
+    "research": "copper-wall",
+}
