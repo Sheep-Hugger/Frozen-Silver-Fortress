@@ -1,6 +1,7 @@
 {
     "type": "wall",
-    "name": "Deep Silver Wall": "?.",
+    "name": "Deep Silver Wall",
+    "description": "?.",
     "type": "Wall",
     "health": 2777,
     "size": 1,
