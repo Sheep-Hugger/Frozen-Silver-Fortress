@@ -1,12 +1,12 @@
 {
     "type": "wall",
     "name": "Deep Silver Wall",
-    "description": "?.",
+    "description": "A strong wall that also boosts deep silver buildings.",
     "type": "Wall",
-    "health": 2777,
+    "health": 3000,
     "size": 1,
     "requirements": [
-        {"item": "Deep Silver", "amount": 6}
+        {"item": "Deep Silver", "amount": 10}
     ],
     "category": "defense",
     "research": "copper-wall",

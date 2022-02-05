@@ -8,7 +8,7 @@
     "flammability": 0,
     "radioactivity": 0,
     "hardness": 5,
-    "cost": 2.5,
+    "cost": 25,
     "research": "Drill",
     "alwaysUnlocked": false,
 }
