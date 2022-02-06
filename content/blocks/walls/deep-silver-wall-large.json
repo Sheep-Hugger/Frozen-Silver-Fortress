@@ -3,7 +3,6 @@
     "name": "Deep Silver Wall Large",
     "category": "defense",
     "description": "A rather strong wall that also boosts deep silver buildings.",
-    "type": "Wall",
     "health": 12000,
     "size": 2,
     "requirements": [
