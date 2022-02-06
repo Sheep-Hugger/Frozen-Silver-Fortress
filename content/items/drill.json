@@ -1,0 +1,14 @@
+{
+    "type": "item",
+    "name": "Drill",
+    "description": "A hardened drill for going deeper.",
+    "color": "000000",
+    "charge": 0,
+    "explosiveness": 0,
+    "flammability": 0,
+    "radioactivity": 0,
+    "hardness": 5,
+    "cost": 6000,
+    "research": "copper",
+    "alwaysUnlocked": false,
+}
