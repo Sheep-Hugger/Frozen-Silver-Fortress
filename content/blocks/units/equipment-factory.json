@@ -1,19 +1,35 @@
 {
-    "type": "UnitFactory",
-    "category": "Units",
-    "name": "Equipment Factory",
-    "description": "???",
-    "health": 3000,
-    "size": 3,
-    "produceTime": 350,
-    "consumes": {"power": 0.5},
-    "plans:" [{  "unit": "plackart",
-        "time": 15,
-        "requirements": [
-            {"item": "core", "amount": 1},
-            {"item": "deep-silver", "amount": 25}],
+   "type": "UnitFactory",
+   "category": "Units",
+   "name": "Equipment Factory",
+   "description": "???",
+   "health": 3000,
+   "size": 3,
+   "produceTime": 350,
+   "consumes": {
+      "power": 0.5
+   },
+   "plans": [
+      {
+         "unit": "plackart",
+         "time": 15,
+         "requirements": [
+            {
+               "item": "core",
+               "amount": 1
+            },
+            {
+               "item": "deep-silver",
+               "amount": 25
             }
-            ]
-    "requirements": [{"item": "deep-silver", "amount": 10}],
-    "research": "core-shard"
+         ]
+      }
+   ],
+   "requirements": [
+      {
+         "item": "deep-silver",
+         "amount": 100
+      }
+   ],
+   "research": "core-shard"
 }
