@@ -4,12 +4,12 @@
     "name": "Core: Fort",
     "description": "???.",
     "unitType": "alpha",
-    "unitCapModifier": 12,
+    "unitCapModifier": 16,
     "health": 2200,
     "itemCapacity": 2000,
     "size": 3,
     "requirements": [
         {"item": "deep-silver", "amount": 2000}
     ],
-    "research": "core-shard",
+    "research": "core-foundation",
 }
