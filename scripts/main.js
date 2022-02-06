@@ -39,7 +39,7 @@ const EquippedToUnit = extend(StatusEffect, "EquippedToUnit", {
       return false;
     },
     localizedName: "Equipped",
-    damage: -2.5,
+    damage: -0.2,
     permanent: true
 });
 EquippedStatus.push(EquippedToUnit)
@@ -97,7 +97,7 @@ const HealerEquipped = extend(StatusEffect, "Healer", {
     },
     localizedName: "Healer Equipped",
     speedMultiplier: 0.8,
-    damage: -2.5,
+    damage: -0.2,
     permanent: true
 });
 EquippedStatus.push(HealerEquipped)
@@ -122,7 +122,7 @@ const ClockerEquipped = extend(StatusEffect, "Clocker", {
     healthMultiplier: 1.25,
     reloadMultiplier: 1.25,
     buildSpeedMultiplier: 1.25,
-    damage: 10,
+    damage: 0.5,
     permanent: true,
     //Custom Effect part
     update(u, t){}
