@@ -1,5 +1,6 @@
 {
     "type": "wall",
+    "category": "defense",
     "name": "Deep Silver Wall",
     "description": "A strong wall that also boosts deep silver buildings.",
     "type": "Wall",
@@ -8,6 +9,5 @@
     "requirements": [
         {"item": "Deep Silver", "amount": 10}
     ],
-    "category": "defense",
-    "research": "copper-wall",
+    "research": "copper-wall"
 }
