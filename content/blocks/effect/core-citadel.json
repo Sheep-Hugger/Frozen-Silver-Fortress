@@ -3,7 +3,7 @@
     "category": "effect",
     "name": "Core: Citadel",
     "description": "???.",
-    "unitType": "delta",
+    "unitType": "gamma",
     "unitCapModifier": 48,
     "health": 12000,
     "itemCapacity": 6500,
