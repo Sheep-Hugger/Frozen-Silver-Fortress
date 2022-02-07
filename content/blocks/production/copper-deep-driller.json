@@ -1,11 +1,11 @@
 {
   "type": "GenericSmelter",
-  "category": "crafting",
-  "name": "Copper Drill Forge",
-  "description": "Forges Drills to mine rare materials",
+  "category": "production",
+  "name": "Copper Deep Drill",
+  "description": "Drills for rare material",
   "health": 500,
   "size": 2,
-  "itemCapacity": 75,
+  "itemCapacity": 20,
   "hasPower": false,
   "hasLiquids": false,
   "hasItems": true,
@@ -15,16 +15,16 @@
   "consumes": {
     "items": {
       "items": [
-        "copper/50",
-        "coal/5"
+        "drill/1"
       ]
     }
   },
   "ambientSound": "build",
   "ambientSoundVolume": 0.5,
-  "outputItem": "drill/1",
+  "outputItem": "deep-silver/10",
   "requirements": [
+    "drill/1",
     "copper/50"
   ],
-  "research": "mechanical-drill"
+  "research": "copper-drill-forge"
 }

@@ -1,30 +1,30 @@
 {
   "type": "GenericSmelter",
-  "category": "crafting",
-  "name": "Copper Drill Forge",
-  "description": "Forges Drills to mine rare materials",
-  "health": 500,
+  "category": "production",
+  "name": "Deep Lapis Drill",
+  "description": "Drills for rare stones",
+  "health": 1000,
   "size": 2,
-  "itemCapacity": 75,
+  "itemCapacity": 50,
   "hasPower": false,
   "hasLiquids": false,
   "hasItems": true,
-  "craftTime": 52,
+  "craftTime": 5000,
   "craftEffect": "hitFuse",
   "updateEffect": "hitLancer",
   "consumes": {
     "items": {
       "items": [
-        "copper/50",
-        "coal/5"
+        "drill/1"
       ]
     }
   },
   "ambientSound": "build",
   "ambientSoundVolume": 0.5,
-  "outputItem": "drill/1",
+  "outputItem": "deep-lapis/50",
   "requirements": [
-    "copper/50"
+    "drill/1",
+    "deep-silver/50"
   ],
-  "research": "mechanical-drill"
+  "research": "copper-deep-driller"
 }

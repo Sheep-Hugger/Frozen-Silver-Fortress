@@ -1,7 +1,7 @@
 {
   "type": "GenericSmelter",
   "category": "crafting",
-  "name": "Copper Drill Forge",
+  "name": "Thorium Drill Forge",
   "description": "Forges Drills to mine rare materials",
   "health": 500,
   "size": 2,
@@ -15,8 +15,8 @@
   "consumes": {
     "items": {
       "items": [
-        "copper/50",
-        "coal/5"
+        "thorium/5",
+        "pyratite/1"
       ]
     }
   },
@@ -24,7 +24,8 @@
   "ambientSoundVolume": 0.5,
   "outputItem": "drill/1",
   "requirements": [
-    "copper/50"
+    "thorium/10",
+    "titanium/10"
   ],
-  "research": "mechanical-drill"
+  "research": "titanium-drill-forge"
 }
