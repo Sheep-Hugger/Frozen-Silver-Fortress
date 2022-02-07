@@ -13,10 +13,8 @@
   "updateEffect": "hitLancer",
   "consumes": {
     "items": {
-      "items": [
         "copper/50",
         "coal/5"
-      ]
     }
   },
   "ambientSound": "build",
