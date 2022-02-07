@@ -1,18 +1,18 @@
 {
-    "type": "CoreBlock",
-    "category": "effect",
-    "name": "Core: Citadel",
-    "description": "???.",
-    "unitType": "gamma",
-    "unitCapModifier": 48,
-    "health": 12000,
-    "itemCapacity": 6500,
-    "size": 5,
-    "requirements": [
-        {"item": "deep-silver", "amount": 4500},
-        {"item": "deep-lapis", "amount": 4500},
-        {"item": "surge-alloy", "amount": 4500},
-        {"item": "core", "amount": 100}
-    ],
-    "research": "core-castle",
+  "type": "CoreBlock",
+  "category": "effect",
+  "name": "Core: Citadel",
+  "description": "???.",
+  "unitType": "gamma",
+  "unitCapModifier": 48,
+  "health": 12000,
+  "itemCapacity": 6500,
+  "size": 5,
+  "requirements": [
+    "deep-silver/4500",
+    "deep-lapis/4500",
+    "deep-lapis/4500",
+    "core/100"
+  ],
+  "research": "core-castle"
 }

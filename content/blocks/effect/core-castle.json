@@ -1,17 +1,17 @@
 {
-    "type": "CoreBlock",
-    "category": "effect",
-    "name": "Core: Castle",
-    "description": "???.",
-    "unitType": "beta",
-    "unitCapModifier": 32,
-    "health": 7000,
-    "itemCapacity": 4500,
-    "size": 4,
-    "requirements": [
-        {"item": "deep-silver", "amount": 2000},
-        {"item": "deep-lapis", "amount": 2000},
-        {"item": "core", "amount": 10}
-    ],
-    "research": "core-fort",
+  "type": "CoreBlock",
+  "category": "effect",
+  "name": "Core: Castle",
+  "description": "???.",
+  "unitType": "beta",
+  "unitCapModifier": 32,
+  "health": 7000,
+  "itemCapacity": 4500,
+  "size": 4,
+  "requirements": [
+    "deep-silver/2000",
+    "deep-lapis/2000",
+    "core/10"
+  ],
+  "research": "core-fort"
 }
