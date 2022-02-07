@@ -5,6 +5,7 @@
   "description": "Forges Drills to mine rare materials",
   "health": 500,
   "size": 2,
+  "itemCapacity": 75,
   "hasPower": false,
   "hasLiquids": false,
   "hasItems": true,

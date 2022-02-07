@@ -5,14 +5,13 @@
   "description": "???",
   "health": 3000,
   "size": 3,
-  "produceTime": 350,
   "consumes": {
     "power": 0.5
   },
   "plans": [
     {
       "unit": "plackart",
-      "time": 15,
+      "time": 350,
       "requirements": [
         "core/1",
         "deep-silver/25"
