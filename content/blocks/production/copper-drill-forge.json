@@ -1,0 +1,23 @@
+{
+    "type": "GenericSmelter",
+    "category": "crafting",
+    "name": "Copper Drill-Forge",
+    "description": "Forges Drills to mine rare materials",
+    "health": 500,
+    "size": 2,
+    "hasPower": false,
+    "hasLiquids": false,
+    "hasItems": true,
+    "craftTime": 52,
+    "craftEffect": hitFuse,
+    "updateEffect": hitLancer,
+    "consumes": {"items": [
+            {"item": "copper", "amount": 50},
+            {"item": "coal", "amount": 50}
+    ]},
+    "ambientSound": "build",
+    "ambientSoundVolume": 0.5,
+    "outputItem": {"item": "drill", "amount": 1},
+    "requirements": [{"item": "copper", "amount": 50}],
+    "research": "core-shard"
+}

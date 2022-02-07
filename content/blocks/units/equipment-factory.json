@@ -14,5 +14,5 @@
             {"item": "deep-silver", "amount": 25}],
             }],
     "requirements": [{"item": "deep-silver", "amount": 10}],
-    "research": "core-shard"
+    "research": "core-castle"
 }

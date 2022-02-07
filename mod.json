@@ -1,8 +1,8 @@
 name: "unit equipment"
 displayName: "Unit Equipment"
 author: "Radiance of Dove"
-description: "A unit upgradeing mod about small sub units that you Equip to bigger units"
-version: "0.1"
+description: "A factional unit based mod focusing on land units and fortifactation walls, with unit equipment to upgrade any unit"
+version: "0.5"
 minGameVersion: "135"
 dependencies: [ ]
 hidden: false
