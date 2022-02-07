@@ -13,18 +13,15 @@
   "updateEffect": "hitLancer",
   "consumes": {
     "items": {
+      "items": [
         "copper/50",
         "coal/5"
+      ]
     }
   },
   "ambientSound": "build",
   "ambientSoundVolume": 0.5,
-  "outputItem": {
-    "item": [
-      "drill/50"
-    ],
-    "amount": 1
-  },
+  "outputItem": "drill/50",
   "requirements": [
     "copper/50"
   ],
