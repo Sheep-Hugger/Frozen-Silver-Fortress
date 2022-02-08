@@ -234,7 +234,7 @@ plackart.constructor = () => extend(UnitEntity, {
 
                 if(this.attachedTo != null){
                 this.maxSP = (this.attachedTo.shield + ( this.attachedTo.maxHealth / 2));
-                this.attachedTo.shield + ( this.maxSP - this.attachedTo.shield);
+                this.attachedTo.shield += (this.maxSP - this.attachedTo.shield);
                 this.attachedTo.apply(ArmorEquipped, 7);
                 }
             }
