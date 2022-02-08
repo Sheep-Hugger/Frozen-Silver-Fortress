@@ -233,7 +233,7 @@ this.super$update();
                 )
 if(this.attachedTo !== null){
 maxSP: 0,
-this.maxSP = ( this.attachedTo.shield += ( this.attachedTo.maxhealth /= 2)),
+this.maxSP = ( this.attachedTo.shield += ( this.attachedTo.maxHealth /= 2)),
 this.attachedTo.shield += ( this.maxSP -= attachedTo.shield ),
 this.attachedTo.apply(ArmorEquipped, 7);
 }
