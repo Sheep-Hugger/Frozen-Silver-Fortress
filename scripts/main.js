@@ -227,25 +227,25 @@ plackart.constructor = () => extend(UnitEntity, {
     attached: false,
     attachedTo: null,
     maxSP: 0,
-    update(){
-this.super$update();
-            if(this.attachedTo == null){
-                this.attachedTo = Units.closest(this.team, this.x, this.y, 12, u => u != this && EquipmentUnits.indexOf(u.type) == -1 &&  !hasEquipment(u)== true
-                )
-if(this.attachedTo != null || !this.attachedTo.isAdded()){
-this.maxSP = ( this.attachedTo.shield += ( this.attachedTo.maxHealth /= 2)),
-this.attachedTo.shield += ( this.maxSP -= this.attachedTo.shield ),
-this.attachedTo.apply(ArmorEquipped, 7)
-}
+        update(){
+        this.super$update();
+            if(this.attachedTo == null || !this.attachedTo.isAdded(){
+                this.attachedTo = Units.closest(this.team, this.x, this.y, 12, u => u != this && EquipmentUnits.indexOf(u.type) == -1 && !hasEquipment(u)== true);
+
+                if(this.attachedTo != null){
+                this.maxSP = (this.attachedTo.shield += ( this.attachedTo.maxHealth /= 2));
+                this.attachedTo.shield += ( this.maxSP -= this.attachedTo.shield);
+                this.attachedTo.apply(ArmorEquipped, 7);
+                }
             }
             else{
-          const {x: atx, y: aty, rotation: atr} = this.attachedTo;
-          this.apply(EquippedToUnit, 7);
-          this.attachedTo.apply(ArmorEquipped, 7);
-          this.x = atx;
-          this.y = aty;
-          this.rotation = atr;
-          this.elevation = this.attachedTo.isFlying() ? 0 : 1;
+                const {x: atx, y: aty, rotation: atr} = this.attachedTo;
+                this.apply(EquippedToUnit, 7);
+                this.attachedTo.apply(ArmorEquipped, 7);
+                this.x = atx;
+                this.y = aty;
+                this.rotation = atr;
+                this.elevation = this.attachedTo.isFlying() ? 0 : 1;
           }
     }
 });
