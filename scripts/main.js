@@ -229,7 +229,7 @@ plackart.constructor = () => extend(UnitEntity, {
     maxSP: 0,
         update(){
         this.super$update();
-            if(this.attachedTo == null || !this.attachedTo.isAdded(){
+            if(this.attachedTo == null || !this.attachedTo.isAdded()){
                 this.attachedTo = Units.closest(this.team, this.x, this.y, 12, u => u != this && EquipmentUnits.indexOf(u.type) == -1 && !hasEquipment(u)== true);
 
                 if(this.attachedTo != null){
