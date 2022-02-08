@@ -1,0 +1,35 @@
+{
+  "type": "GenericSmelter",
+  "category": "crafter",
+  "name": "core-factory",
+  "description": "Forges advanced cores for units and core upgrades",
+  "health": 2000,
+  "size": 3,
+  "itemCapacity": 100,
+  "hasPower": false,
+  "hasLiquids": false,
+  "hasItems": true,
+  "craftTime": 600,
+  "craftEffect": "hitFuse",
+  "updateEffect": "hitLancer",
+  "consumes": {
+    "items": {
+      "items": [
+        "deep-lapis/10",
+        "deep-silver/5",
+        "silicon/5",
+        "graphite/5",
+        "sand/50",
+        "pyratite/10"
+      ]
+    }
+  },
+  "ambientSound": "build",
+  "ambientSoundVolume": 0.5,
+  "outputItem": "core/1",
+  "requirements": [
+    "deep-lapis/500",
+    "deep-silver/100"
+  ],
+  "research": "core-fort"
+}
