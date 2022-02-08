@@ -227,10 +227,16 @@ plackart.constructor = () => extend(UnitEntity, {
     attached: false,
     attachedTo: null,
     update(){
-        this.super$update();
+this.super$update();
             if(this.attachedTo == null){
                 this.attachedTo = Units.closest(this.team, this.x, this.y, 12, u => u != this && EquipmentUnits.indexOf(u.type) == -1 &&  !hasEquipment(u)== true
                 )
+if(this.attachedTo !== null){
+maxSP: 0,
+this.maxSP = ( this.attachedTo.shield += ( this.attachedTo.maxhp /= 2)),
+this.attachedTo.shield += ( this.maxSP -= attachedTo.shield ),
+this.attachedTo.apply(ArmorEquipped, 7);
+}
             }
             else{
           const {x: atx, y: aty, rotation: atr} = this.attachedTo;
