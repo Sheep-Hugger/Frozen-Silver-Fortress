@@ -232,7 +232,7 @@ this.super$update();
             if(this.attachedTo == null){
                 this.attachedTo = Units.closest(this.team, this.x, this.y, 12, u => u != this && EquipmentUnits.indexOf(u.type) == -1 &&  !hasEquipment(u)== true
                 )
-if(this.attachedTo !== null || !this.attachedTo.isAdded()){
+if(this.attachedTo != null || !this.attachedTo.isAdded()){
 this.maxSP = ( this.attachedTo.shield += ( this.attachedTo.maxHealth /= 2)),
 this.attachedTo.shield += ( this.maxSP -= this.attachedTo.shield ),
 this.attachedTo.apply(ArmorEquipped, 7)
