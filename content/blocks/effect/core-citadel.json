@@ -11,6 +11,7 @@
   "requirements": [
     "deep-silver/4500",
     "deep-lapis/4500",
+    "surge-alloy/4500",
     "core/100"
   ],
   "research": "core-castle"
