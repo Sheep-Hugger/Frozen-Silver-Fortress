@@ -5,26 +5,26 @@
   "description": "Drills for rare stones",
   "health": 1000,
   "size": 2,
-  "itemCapacity": 50,
+  "itemCapacity": 100,
   "hasPower": false,
   "hasLiquids": false,
   "hasItems": true,
-  "craftTime": 5000,
+  "craftTime": 50,
   "craftEffect": "hitFuse",
   "updateEffect": "hitLancer",
   "consumes": {
     "items": {
       "items": [
-        "drill/1"
+        "coal/5"
       ]
     }
   },
   "ambientSound": "build",
   "ambientSoundVolume": 0.5,
-  "outputItem": "deep-lapis/50",
+  "outputItem": "deep-lapis/2",
   "requirements": [
     "drill/1",
-    "deep-silver/50"
+    "deep-lapis/50"
   ],
-  "research": "copper-deep-driller"
+  "research": "core-fort"
 }

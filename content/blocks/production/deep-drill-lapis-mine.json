@@ -1,30 +1,30 @@
 {
   "type": "GenericSmelter",
   "category": "production",
-  "name": "Deep Silver Drill",
-  "description": "Drills for rare material much faster",
-  "health": 1000,
+  "name": "Copper Deep Drill",
+  "description": "Drills for rare material",
+  "health": 500,
   "size": 2,
-  "itemCapacity": 100,
+  "itemCapacity": 400,
   "hasPower": false,
   "hasLiquids": false,
   "hasItems": true,
-  "craftTime": 50,
+  "craftTime": 5000,
   "craftEffect": "hitFuse",
   "updateEffect": "hitLancer",
   "consumes": {
     "items": {
       "items": [
-        "coal/5"
+        "drill/1"
       ]
     }
   },
   "ambientSound": "build",
   "ambientSoundVolume": 0.5,
-  "outputItem": "deep-silver/1",
+  "outputItem": "deep-lapis/100",
   "requirements": [
     "drill/1",
-    "deep-silver/50"
+    "copper/50"
   ],
-  "research": "core-fort"
+  "research": "copper-drill-forge"
 }

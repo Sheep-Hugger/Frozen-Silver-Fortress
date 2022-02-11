@@ -15,8 +15,8 @@
   "consumes": {
     "items": {
       "items": [
-        "lead/25",
-        "graphite/25"
+        "lead/30",
+        "graphite/10"
       ]
     }
   },
