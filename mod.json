@@ -1,8 +1,10 @@
-name: "unit equipment"
-displayName: "Unit Equipment"
+name: "frozen-silver-fortress"
+displayName: "Frozen Silver Fortress"
 author: "Radiance of Dove"
-description: "A factional unit based mod focusing on land units and fortifactation walls, with unit equipment to upgrade any unit"
-version: "0.5"
+description: "A factional mod focused on fortifaction, units and unit equipment.
+
+This mod also includes the content of Unit Equipment Stand Alone."
+version: "0.25"
 minGameVersion: "135"
 dependencies: [ ]
 hidden: false

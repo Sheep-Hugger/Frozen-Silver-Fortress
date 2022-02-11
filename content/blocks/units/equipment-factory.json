@@ -2,7 +2,7 @@
   "type": "UnitFactory",
   "category": "units",
   "name": "Equipment Factory",
-  "description": "???",
+  "description": "Equipment factory for units.",
   "health": 3000,
   "size": 3,
   "consumes": {
@@ -21,5 +21,5 @@
   "requirements": [
     "deep-silver/20"
   ],
-  "research": "core-factory"
+  "research": "core-castle"
 }
