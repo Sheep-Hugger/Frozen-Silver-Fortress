@@ -1,7 +1,7 @@
 {
   "type": "GenericSmelter",
   "category": "crafting",
-  "name": "core-factory",
+  "name": "Core Factory",
   "description": "Forges advanced cores for units and core upgrades",
   "health": 2000,
   "size": 3,
