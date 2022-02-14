@@ -269,7 +269,7 @@ plackart.constructor = () => extend(UnitEntity, {
 							this.hitboxVar.set(8, 8, this.x, this.y);
 						}
 						this.shieldRechargeTimer += 1;
-						this.shieldLastFrame = this.attachedTo.shield
+						this.shieldLastFrame = this.attachedTo.shield;
 					}
 				}
 			}); register(plackart); EquipmentUnits.push(plackart)
