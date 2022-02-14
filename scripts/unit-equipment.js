@@ -257,9 +257,9 @@ plackart.constructor = () => extend(UnitEntity, {
 							this.shieldRechargeTimer = 0;
 						} else {
 							this.attachedTo.shield += ((this.maxSP / 100) * (this.shieldRechargeTimer / 60)
-							}
+							};
 							this.hitboxVar.set(NaN, NaN, 0, 0);
-						} else {
+						}; else {
 							if (shieldRechargeTimer >= 600) {
 								this.attachedTo.shield = 10;
 							} else {
